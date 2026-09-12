@@ -1,6 +1,6 @@
 # AMI Chat AppImage
 
-A personal Linux AppImage that opens `aitools.ptit.edu.vn/chat/` as a
+Linux AppImage that opens `aitools.ptit.edu.vn/chat/` as a
 standalone desktop app — using Chrome/Chromium's `--app` mode, fixed at a
 mobile-sized window, launchable from a desktop icon.
 
