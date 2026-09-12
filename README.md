@@ -8,28 +8,18 @@ Doesn't bundle a browser — it still requires Chrome or Chromium to
 already be installed on the system; the AppImage just launches it with
 the right flags.
 
-## Build
-
-```bash
-cd appimage
-./build.sh
-```
-
-The script downloads `appimagetool` (requires internet) and packages
-`AMI-Chat.AppDir` into `AMI-Chat.AppImage`.
-
 ## Run
 
 ```bash
+chmod +x AMI-Chat.AppImage
 ./AMI-Chat.AppImage
 ```
 
 ## Customize
 
-Edit `URL`, `WIDTH`, `HEIGHT` in `AMI-Chat.AppDir/AppRun`, then rebuild.
-
-To change the icon, replace `AMI-Chat.AppDir/ami-icon.png` and `.DirIcon`
-with another square PNG, then rebuild.
+The window URL and size are baked into this build. If you want to change
+them, you'd need to edit `AppRun` inside the AppDir and repackage with
+`appimagetool` — happy to walk through that if needed.
 
 ## Requirements
 
