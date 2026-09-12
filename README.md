@@ -15,12 +15,6 @@ chmod +x AMI-Chat.AppImage
 ./AMI-Chat.AppImage
 ```
 
-## Customize
-
-The window URL and size are baked into this build. If you want to change
-them, you'd need to edit `AppRun` inside the AppDir and repackage with
-`appimagetool` — happy to walk through that if needed.
-
 ## Requirements
 
 - Chrome or Chromium installed (`google-chrome-stable`, `google-chrome`,
